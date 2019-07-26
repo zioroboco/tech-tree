@@ -7,10 +7,16 @@
     "dev": "webpack-dev-server"
   },
   "dependencies": {
+    "cytoscape": "^3.8.2",
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-typescript": "^7.3.3",
+    "@types/cytoscape": "^3.8.0",
     "@types/html-webpack-plugin": "^3.2.1",
     "@types/node": "^12.6.8",
+    "@types/ramda": "^0.26.18",
     "@types/webpack": "^4.32.1",
     "babel-loader": "^8.0.6",
     "html-webpack-plugin": "^3.2.0",
