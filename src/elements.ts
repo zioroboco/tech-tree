@@ -1,10 +1,11 @@
 import { ElementsDefinition, NodeDefinition, EdgeDefinition } from "cytoscape"
 import { keys } from "ramda"
 
-import { graph, Edge } from "./graph"
+import { Edge, graph, root } from "./data"
 
 const toCyNode = (id: string): NodeDefinition => ({
   data: { id },
+  style: id === root ? { visibility: "hidden" } : undefined,
 })
 
 const toCyEdge = (
