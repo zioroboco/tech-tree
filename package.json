@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "cytoscape": "^3.8.2",
+    "cytoscape-dagre": "^2.2.2",
     "ramda": "^0.26.1"
   },
   "devDependencies": {

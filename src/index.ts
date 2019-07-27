@@ -5,12 +5,13 @@ import { elements } from "./elements"
 
 const container = createContainer(document)
 
+cytoscape.use(require("cytoscape-dagre"))
+
 cytoscape({
   container,
   elements,
   layout: {
-    name: "grid",
-    rows: 1,
+    name: "dagre",
   },
   style: [
     {
